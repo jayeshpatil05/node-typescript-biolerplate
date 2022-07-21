@@ -120,29 +120,12 @@ To access the `applyEncryption` attribute from `Envionment` class to Response Ha
 - [Setup Eslint Prettier and Husky in Node JS Typescript Project](https://gist.github.com/santoshshinde2012/e1433327e5f7a58f98fe3e6651c4d5de)
 
 ## Notes
+ 1. Before running below commands please check env file for configuration as per your needs.
+ 2. Create Logs directory
+### 1. Run Following command to run project
 
-### 1. Why is my git pre-commit hook not executable by default?
+a. npm i
+b. npm start
 
-- Because files are not executable by default; they must be set to be executable.
-
-```
-chmod ug+x .husky/*
-chmod ug+x .git/hooks/*
-```
-
-### 2. [Production Best Practices: Security](https://expressjs.com/en/advanced/best-practice-security.html)
-
-- Don’t use deprecated or vulnerable versions of Express
-- Use TLS
-- Use Helmet
-- Use cookies securely
-- Prevent brute-force attacks against authorization
-- Ensure your dependencies are secure
-- Avoid other known vulnerabilities
-- Additional considerations
-
-
-
-<hr/>
-
-# Please connect with me on Twitter [@shindesan2012](https://twitter.com/shindesan2012) & [https://blog.santoshshinde.com](https://blog.santoshshinde.com/)
+# Run following command to run test
+a. npm test
